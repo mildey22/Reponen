@@ -22,6 +22,7 @@ public class PostinumerotOhjelma {
             String choice = i1.nextLine();
 
             if (choice.equals("L")) {
+                System.out.println("Loppu!");
                 break;
             }
 
@@ -38,7 +39,7 @@ public class PostinumerotOhjelma {
             if (choice.equals("H")) {
                 System.out.println("Anna postinumero, jota vastaava postitoimipaikka haetaan:");
                 String searchZip = i1.nextLine();
-                System.out.println(postitoimipaikat.get(searchZip));
+                System.out.println("Löytyi postitoimipaikka: " + postitoimipaikat.get(searchZip));
 
             }
 
